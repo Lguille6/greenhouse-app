@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@cloudflare/vite-plugin": "^1.33.1",
     "pinia": "^3.0.4",
     "vue": "beta"
   },
