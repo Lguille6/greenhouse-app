@@ -1,11 +1,13 @@
-<script setup></script>
+<script setup>
+import GreenhouseDashboard from "./components/GreenhouseDashboard.vue";
+import GardenBed from "./components/GardenBed.vue";
+import SeedNursery from "./components/SeedNursery.vue";
+</script>
 
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <main>
+    <GreenhouseDashboard />
+    <SeedNursery />
+    <GardenBed />
+  </main>
 </template>
-
-<style scoped></style>
